@@ -1,0 +1,17 @@
+package BiggestElementFromMat;
+public class TestBiggest {
+	public static void main(String[] args) {
+		BiggestElement b=new BiggestElement();
+		System.out.println("read 1st matrix:");
+		int a[][]=b.readMat();
+		System.out.println("enter 2nd matrix:");
+		int c[][]=b.readMat();
+		System.out.println("1st mat elements is");
+		b.displayMat(a);
+		System.out.println("2nd mat elements is:");
+		b.displayMat(c);
+		System.out.println("==================");
+		//b.getBiggest(c);
+		int s=b.getBiggest(a);
+	}
+}

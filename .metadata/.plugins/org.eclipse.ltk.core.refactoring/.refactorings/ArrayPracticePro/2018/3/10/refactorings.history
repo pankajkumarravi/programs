@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;EcpectedOutput_.java, Pattern2.java, Pattern4.java, Pattern6.java, Pattern7.java, Pattern8.java, Pattrn3.java&apos; to &apos;ArrayPracticePro&apos;" description="Move 7 resources to &apos;ArrayPracticePro&apos;" destination="/ArrayPracticePro" element1="src/EcpectedOutput_.java" element2="src/Pattern2.java" element3="src/Pattern4.java" element4="src/Pattern6.java" element5="src/Pattern7.java" element6="src/Pattern8.java" element7="src/Pattrn3.java" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="7" stamp="1520275778161" updateReferences="true"/>
+</session>

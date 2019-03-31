@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;NumConversion/src/DtoOctGm.java&apos; to &apos;DtoBaseGm.java&apos;" description="Rename resource &apos;DtoOctGm.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/DtoOctGm.java" name="DtoBaseGm.java" stamp="1517364244240" updateReferences="true"/>
+</session>

@@ -1,0 +1,10 @@
+
+public class First {
+
+	public static void main(String[] args) {
+		int i = 10;
+		if (10>=9) {
+			System.out.println("goooommmoo");
+		}
+	}
+}

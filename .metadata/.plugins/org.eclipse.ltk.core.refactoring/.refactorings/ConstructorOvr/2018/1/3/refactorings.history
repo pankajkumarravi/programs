@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ConstructorOvr/src/Application.java&apos; to &apos;Applicant.java&apos;" description="Rename resource &apos;Application.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Application.java" name="Applicant.java" stamp="1516088826722" updateReferences="true"/>
+</session>

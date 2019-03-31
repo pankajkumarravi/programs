@@ -1,0 +1,7 @@
+package com.jspiders.app.game;
+
+public class Weapon extends Weapon{
+	Scanner sc=new Scanner(System.in);
+	
+
+}

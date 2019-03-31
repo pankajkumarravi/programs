@@ -1,0 +1,18 @@
+package com.jspiders.app.game;
+
+import java.util.Random;
+
+public class Button {
+	
+	Random r=new Random();
+	int a=r.nextInt(3);
+   if(a==0){
+	   Bomb b=new Bomb();
+	   b.blast();
+	   return b;
+   }else if(a==1){
+	 Gun g=new Gun();  
+	   g.
+   }
+}
+

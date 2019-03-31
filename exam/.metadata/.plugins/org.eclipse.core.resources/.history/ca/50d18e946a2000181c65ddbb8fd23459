@@ -1,0 +1,14 @@
+package exam;
+
+public class CountDigits {
+
+	public static void main(String[] args) {
+		int num=256;
+		int  count =1;
+		System.out.println(count);
+		for(int i=1;i<=num/10;i++)
+		{
+			count++;
+		}
+	}
+}

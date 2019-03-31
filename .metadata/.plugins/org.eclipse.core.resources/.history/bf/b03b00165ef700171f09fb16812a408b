@@ -1,0 +1,11 @@
+package com.jspiders.app.game;
+
+import java.util.Random;
+
+public class Button {
+	void click(){	
+   
+	}
+}
+
+

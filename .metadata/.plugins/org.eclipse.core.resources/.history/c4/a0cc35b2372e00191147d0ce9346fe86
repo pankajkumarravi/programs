@@ -1,0 +1,9 @@
+public class Lab12 {
+public static void main(String[] args) {
+	final int A=99;
+	System.out.println(A);
+	int A=88;
+	System.out.println(A);
+	
+}
+}

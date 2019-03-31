@@ -1,0 +1,14 @@
+package com.jspiders.app.game;
+
+import java.util.Random;
+
+public class Button {
+	
+	Random r=new Random();
+	int a=r.nextInt3);
+   if(a==0){
+	   Bomb b=new Bomb();
+	   b.blast();
+	   rerutn b;
+   }
+}

@@ -1,0 +1,10 @@
+
+public class Mobile {
+
+	public static void main(String[] args) {
+		String model,color;
+		double price;
+
+	}
+
+}

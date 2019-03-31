@@ -1,0 +1,15 @@
+
+public class Employee {
+	int id;
+	String name;
+	double salary;
+	public int getId(){
+		return id;
+	}
+	public void SetId(int id){
+		this.id=id;
+	}
+	public String  getName(){
+		return this.name+" :- :"+this.id+" "+this.salary;
+	}
+}

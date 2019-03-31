@@ -1,0 +1,11 @@
+
+public class First {
+  
+	 public static void main(String[] args) {
+		 int i=1;
+		if()
+		{
+			System.out.println("goooommmoo");
+		}
+	}
+}

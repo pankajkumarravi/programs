@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class TestRowWiseBiggest {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the no of rows and colums: ");
+		int r=sc.nextInt();
+		int c=sc.nextInt();
+		int mat[][]=new int[r][c];
+	}	
+}

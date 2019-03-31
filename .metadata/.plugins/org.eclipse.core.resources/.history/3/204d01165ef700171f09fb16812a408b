@@ -1,0 +1,14 @@
+package com.jspiders.app.game;
+public class Game {
+	Button b=new Button();
+	Weapon w= b.click();
+	if (w instanceof Gun){
+		System.out.println("shoot..");
+	}
+	else if(w instanceof Bomb){
+		System.out.println("Blast");
+	}
+	else{
+		System.out.println("stab");
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class DistinctElement {
+	public static void main(String[] args) {
+
+		Scanner sc=new Scanner(System.in);
+		System.out.println("How many num you want to enter");
+		int n=sc.nextInt();
+		int ar[]=new int[n];
+		System.out.println("Enter "+n+" values");
+		for (int i = 0; i < ar.length; i++) 
+		{
+			ar[i]=sc.nextInt();
+		}
+	}
+
+}

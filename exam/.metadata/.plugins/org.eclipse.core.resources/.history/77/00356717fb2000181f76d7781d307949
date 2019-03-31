@@ -1,0 +1,36 @@
+class 
+public class Armstrong {
+	public static void main(String[] args) {
+		int num,i=0,num1,p,p1,num2;
+		int s=0;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the no. to be checked as Diserium"); 
+		num=sc.nextInt();
+		  
+		  num1=num;
+		  num2=num;
+		while(num2>0)
+		{
+					
+			num2=num2/10;
+			i++;
+		}
+		  while(num1>0)
+		{
+			p=num1%10;
+			s=(int) (s+Math.pow(p,i));
+			i--;
+			num1=num1/10;
+			
+		}
+		if(s==num)	
+			System.out.println("The no is Diserium " +num);
+		else
+			System.out.println("The no is not Diserium " +num);
+		 		
+	}
+
+}
+
+
+

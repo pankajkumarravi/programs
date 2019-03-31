@@ -1,0 +1,73 @@
+import java.util.Scanner;
+
+public class CountsDigitss {
+	public static void main(String[] args) {
+
+import java.util.Scanner;
+
+public class CountNoOfDidits {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the no to count digits");
+		int c=sc.nextInt();
+		int count=countNoOfDigits(c);
+		System.out.println("the count digits are" +count);
+
+	}
+	static int countNoOfDigits(int x)
+	{
+		int dc=0;
+		do{ 
+			dc++;
+			x=x/10;
+		}
+		while(x!=0);
+		return dc;
+	}
+}
+
+
+
+
+import java.util.Scanner;
+public class Strong {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Ente num to check is it Strong num or not");
+		int n=sc.nextInt();
+		boolean str=strong(n);
+		if(str==true)
+			System.out.println(n+" is strong number ");
+		else
+			System.out.println(n+" is not a strong number ");
+	}
+
+	private static boolean strong(int n) {
+		int sum=0;int t=n;
+
+		while(t>0){
+			int r=t%10;
+			sum=sum+fact(r);
+			t=t/10;
+		}
+		return(sum==n);
+	}
+
+	private static int fact(int num) {
+		int f=1;
+		while(num>0){
+			f=f*num;
+			num--;
+		}
+		return f;
+	}
+}
+
+
+
+
+		
+	}
+
+}

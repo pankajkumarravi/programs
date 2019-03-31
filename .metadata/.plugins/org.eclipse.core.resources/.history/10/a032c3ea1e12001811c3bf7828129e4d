@@ -1,0 +1,13 @@
+
+public class Mobile {
+  
+	String model,color;
+	double price;
+	
+	public String toString()
+	{
+	System.out.println(this.model+" "+this.price+" "+this.color);
+	return null;
+	}
+}
+

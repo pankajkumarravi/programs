@@ -1,0 +1,25 @@
+package exam;
+import java.util.Scanner;
+
+public class CountNoOfDidits {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the no to count digits");
+		int c=sc.nextInt();
+		int count=countNoOfDigits(c);
+		System.out.println("count digits=" +count);
+
+	}
+	static int countNoOfDigits(int x)
+	{
+		int dc=0;
+		do{ 
+			dc++;
+			x=x/10;
+		}
+		while(x!=0);
+		return dc;
+	}
+}
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Thispro/src/com/jspiders/demoapp/demo/Calculator.java&apos; to &apos;Mobile.java&apos;" description="Rename resource &apos;Calculator.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/jspiders/demoapp/demo/Calculator.java" name="Mobile.java" stamp="1515216722158" updateReferences="true"/>
+</session>
